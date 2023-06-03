@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500&display=swap');
+
+body {
+    font-family: 'Expletus Sans', sans-serif;
+    font-weight: 500;
+    background: url("../i/bg-grad.png") top repeat-x #7ccbe9;
+}
+
+#container {
+    /* width of the logo */
+    max-width: 456px;
+    margin: auto;
+}
+
+#logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#content {
+    color: #eee;
+    margin: auto;
+}
+
+#content a {
+    color: #eee;
+    text-decoration-line: none;
+}
+
+#content a:hover {
+    color: white;
+}
+
+#socials {
+    margin-top: 60px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #eee;
+    font-weight: 400;
+}
+
+.ext-logo {
+    position: relative;
+    top: -30px; 
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.no-ext-logo {
+    position: relative;
+    left: 75px;
+}
+
+.ext-logo-social {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.link-item {
+    margin-top: 30px;
+}
+
+.link-text {
+    text-align: left;
+    display: inline flow-root;
+}
+
+.link-lg {
+    font-size: 44pt;
+    text-decoration-line: underline;
+}
+
+.link-lg-inop {
+    font-size: 44pt;
+}
+
+.link-sm {
+    font-size: 16pt;
+    position: relative;
+    top: -6px;
+}
+
+.social {
+    display: inline;
+}
